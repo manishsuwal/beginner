@@ -1,0 +1,4 @@
+Beginner
+========
+
+Beginner WordPress Theme
