@@ -102,6 +102,8 @@ add_action( 'widgets_init', 'beginner_widgets_init' );
 function beginner_scripts() {
 	wp_enqueue_style( 'beginner-style', get_stylesheet_uri() );
 
+	wp_enqueue_style('beginner-content-sidebar', get_template_directory_uri() . '/layouts/content-sidebar.css');
+
 	wp_enqueue_style('beginner-google-fonts', 'http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic|Open+Sans:400italic,800italic,400,800,300,700');
 
 	wp_enqueue_style('beginner-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
