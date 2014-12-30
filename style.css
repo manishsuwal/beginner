@@ -623,6 +623,11 @@ a:active {
 X.X Header
 --------------------------------------------------------------*/
 
+.header-image img {
+	display: block;
+	margin: 0 auto;
+}
+
 .site-branding {
     padding: 6rem 0;
     text-align: center;

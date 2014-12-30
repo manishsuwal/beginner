@@ -26,9 +26,9 @@ function beginner_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'beginner_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => 'ffffff',
-		'width'                  => 1000,
-		'height'                 => 250,
-		'flex-height'            => true,
+		'width'                  => 1280,
+		'height'                 => 300,
+		'flex-height'            => false,
 		'wp-head-callback'       => 'beginner_header_style',
 		'admin-head-callback'    => 'beginner_admin_header_style',
 		'admin-preview-callback' => 'beginner_admin_header_image',
